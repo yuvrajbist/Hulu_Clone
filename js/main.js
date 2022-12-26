@@ -1,10 +1,10 @@
 const modal = document.querySelector('.modal')
-const log = document.querySelector('.login-btn')
+const loginBtn = document.querySelector('.login-btn')
 const closeBtn = document.querySelector('.close')
 
 loginBtn.addEventListener('click',openModal)
 closeBtn.addEventListener('click',closeModal)
-window.addEventListener('click',outclickClick)
+window.addEventListener('click',outsideClick)
 
 function openModal(){
     modal.style.display = 'block'
