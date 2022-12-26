@@ -1,5 +1,5 @@
 const modal = document.querySelector('.modal')
-const log = document.querySelector('login-btn')
+const log = document.querySelector('.login-btn')
 const closeBtn = document.querySelector('.close')
 
 loginBtn.addEventListener('click',openModal)
